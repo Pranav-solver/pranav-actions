@@ -9,4 +9,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Create a new file
-        run: echo "This is the file content" > /path/to/your/pranav.txt
+        run: echo "This is the file content" > /home/ubuntu/pranav786.txt
