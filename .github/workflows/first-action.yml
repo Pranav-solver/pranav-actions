@@ -1,0 +1,12 @@
+name: Create pranav.txt on Ubuntu Server
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  create_file_job:
+    runs-on: self-hosted
+    steps:
+      - name: Create a new file
+        run: echo "This is the file content" > /path/to/your/pranav.txt
